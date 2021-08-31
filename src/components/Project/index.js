@@ -13,38 +13,29 @@ import './Project.css';
 function ProjectComponent({ imageSrc, description, appLink, githubLink }) {
 
     const [showLinks, setshowLinks] = useState(false);
-    
-    const textStyle = {
-        position: 'absolute', 
-        top: '50%', 
-        left: '50%'
-    };
 
     return (
-    <Container>
-        <Row>
-            <Col xs={6} md={4}>
-                <div 
-                    style={{width: 'auto', position: 'relative', textAlign: 'center'}}
-                    onMouseEnter={() => setshowLinks(true)}
-                    onMouseLeave={() => setshowLinks(false)}
-                >
-                    <Image 
-                        src={imageSrc} 
-                        rounded 
-                        responsive
-                        style={{ width:'70%', height:'100%', backgroundSize: 'cover'}}
-                        className="imageHover"
-                    />
-                    {showLinks &&
-                        <div style={textStyle} className="textHover">
-                            <a href={appLink}>Project</a>
-                        </div>
-                    }
-                </div>
-            </Col>
-        </Row>
-    </Container>
+        <Col xs={6} md={4}>
+            <div 
+                style={{width: 'auto', position: 'relative', textAlign: 'center'}}
+                onMouseEnter={() => setshowLinks(true)}
+                onMouseLeave={() => setshowLinks(false)}
+            >
+                <Image 
+                    src={imageSrc} 
+                    rounded 
+                    responsive
+                    style={{ width:'70%', height:'100%', backgroundSize: 'cover'}}
+                    className="imageHover"
+                />
+                {showLinks &&
+                    <div className="textHover">
+                        <a href={appLink} style={{fontSize: '30px'}}>App Link</a>
+                        <a href={githubLink}><img src="https://img.icons8.com/fluency/48/000000/github.png"/></a>
+                    </div>
+                }
+            </div>
+        </Col>
     );
 }
 
@@ -98,9 +89,18 @@ function ProjectsComponent () {
     
     return (
         <div style={{ paddingTop: '5%', margin: '10px', border: 'black 2px'}}>
-            {projects.map((project, index) => {
-                return <ProjectComponent key={index} {...project}/>
-            })}
+            <Container>
+                <Row>
+                    <h1>
+                        <p>Here are some of the projects I have been working on!</p>
+                    </h1>
+                </Row>
+                <Row>
+                    {projects.map((project, index) => {
+                    return <ProjectComponent key={index} {...project}/>
+                    })}
+                </Row>
+            </Container>
         </div>
     )
 }
