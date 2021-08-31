@@ -1,9 +1,13 @@
 import React from 'react';
-import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 // import Nav from 'react-bootstrap/Nav'
 // import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Navigation() {
+function Navigation(props) {
+    const {
+        navOptions,
+        setCurrentNavSelected 
+    } = props;
 
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -14,8 +18,8 @@ function Navigation() {
                 <Nav className="me-auto">
                 </Nav>
                 <Nav>
-                <Nav.Link href="#aboutme">About Me</Nav.Link>
-                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                <Nav.Link href="#aboutme" onClick={() => setCurrentNavSelected(navOptions[0].id)}>{navOptions[0].name}</Nav.Link>
+                <Nav.Link href="#portfolio" onClick={() => setCurrentNavSelected(navOptions[1].id)}>{navOptions[1].name}</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
                 <Nav.Link href="#resume">Resume</Nav.Link>
                 </Nav>

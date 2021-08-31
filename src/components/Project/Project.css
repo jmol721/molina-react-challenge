@@ -1,0 +1,7 @@
+.imageHover:hover {
+    opacity: 0.4;
+}
+
+.textHover:hover {
+    font: bold;
+}
