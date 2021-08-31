@@ -12,7 +12,7 @@ function Navigation(props) {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand href="#aboutme" onClick={() => setCurrentNavSelected(navOptions[0].id)}>Jose M</Navbar.Brand>
+            <Navbar.Brand href="#aboutme" onClick={() => setCurrentNavSelected(navOptions[0].id)}>Jose Molina</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">

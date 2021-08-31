@@ -1,6 +1,9 @@
 import React from 'react';
 // import coverPic from '../../assets/cover/IMG-0500.jpg';
-import coverPic2 from '../../assets/cover/image_67216385.JPG';
+// import coverPic2 from '../../assets/cover/image_67216385.JPG';
+// import skyline from '../../assets/cover/austin-sky-copy.jpg';
+// import skyline2 from '../../assets/cover/austin-sky.jpg';
+import skyline3 from '../../assets/cover/austin-sky-2.jpg';
 
 
 function About() {
@@ -9,7 +12,7 @@ function About() {
             <div>
                 <h1 className="title">About Me</h1>
                 {/* <img src={coverPic} className="cover-pic" alt="Austin skyline at night from a paddleboard" /> */}
-                <img src={coverPic2} className="cover-pic2" alt="Me on top of a boulder" />
+                <img src={skyline3} className="cover-pic2" alt="Me on top of a boulder" />
             </div>
             <div className="short-bio">
                 <p>
