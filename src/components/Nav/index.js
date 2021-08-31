@@ -12,7 +12,7 @@ function Navigation(props) {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand href="#home">Jose M</Navbar.Brand>
+            <Navbar.Brand href="#aboutme" onClick={() => setCurrentNavSelected(navOptions[0].id)}>Jose M</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
@@ -20,7 +20,7 @@ function Navigation(props) {
                 <Nav>
                 <Nav.Link href="#aboutme" onClick={() => setCurrentNavSelected(navOptions[0].id)}>{navOptions[0].name}</Nav.Link>
                 <Nav.Link href="#portfolio" onClick={() => setCurrentNavSelected(navOptions[1].id)}>{navOptions[1].name}</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link href="#contact" onClick={() => setCurrentNavSelected(navOptions[2].id)}>{navOptions[2].name}</Nav.Link>
                 <Nav.Link href="#resume">Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
