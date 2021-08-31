@@ -21,7 +21,7 @@ function Navigation(props) {
                 <Nav.Link href="#aboutme" onClick={() => setCurrentNavSelected(navOptions[0].id)}>{navOptions[0].name}</Nav.Link>
                 <Nav.Link href="#portfolio" onClick={() => setCurrentNavSelected(navOptions[1].id)}>{navOptions[1].name}</Nav.Link>
                 <Nav.Link href="#contact" onClick={() => setCurrentNavSelected(navOptions[2].id)}>{navOptions[2].name}</Nav.Link>
-                <Nav.Link href="#resume">Resume</Nav.Link>
+                <Nav.Link href="#resume" onClick={() => setCurrentNavSelected(navOptions[3].id)}>{navOptions[3].name}</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Container>

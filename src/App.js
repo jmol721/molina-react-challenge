@@ -4,6 +4,7 @@ import Navigation from './components/Nav/index';
 import Footer from './components/Footer';
 import ProjectsComponent from './components/Project';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -27,7 +28,7 @@ function App() {
       {currentNavSelected === navOptions[0].id && <About/>}
       {currentNavSelected === navOptions[1].id && <ProjectsComponent/>}
       {currentNavSelected === navOptions[2].id && <ContactForm/>}
-      {/* {currentNavSelected === navOptions[3].id && <Resume/>} */}
+      {currentNavSelected === navOptions[3].id && <Resume/>}
       </main>
       <Footer></Footer>
     </div>
