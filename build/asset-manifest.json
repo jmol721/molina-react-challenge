@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/molina-react-challenge/static/css/main.0723ee60.chunk.css",
+    "main.js": "/molina-react-challenge/static/js/main.99bcbfe0.chunk.js",
+    "main.js.map": "/molina-react-challenge/static/js/main.99bcbfe0.chunk.js.map",
+    "runtime-main.js": "/molina-react-challenge/static/js/runtime-main.f3319f46.js",
+    "runtime-main.js.map": "/molina-react-challenge/static/js/runtime-main.f3319f46.js.map",
+    "static/css/2.818011ed.chunk.css": "/molina-react-challenge/static/css/2.818011ed.chunk.css",
+    "static/js/2.5b309f9c.chunk.js": "/molina-react-challenge/static/js/2.5b309f9c.chunk.js",
+    "static/js/2.5b309f9c.chunk.js.map": "/molina-react-challenge/static/js/2.5b309f9c.chunk.js.map",
+    "static/js/3.bd4ee794.chunk.js": "/molina-react-challenge/static/js/3.bd4ee794.chunk.js",
+    "static/js/3.bd4ee794.chunk.js.map": "/molina-react-challenge/static/js/3.bd4ee794.chunk.js.map",
+    "index.html": "/molina-react-challenge/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/molina-react-challenge/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.0723ee60.chunk.css.map": "/molina-react-challenge/static/css/main.0723ee60.chunk.css.map",
+    "static/js/2.5b309f9c.chunk.js.LICENSE.txt": "/molina-react-challenge/static/js/2.5b309f9c.chunk.js.LICENSE.txt",
+    "static/media/GYAHM.891b3723.jpg": "/molina-react-challenge/static/media/GYAHM.891b3723.jpg",
+    "static/media/MyJober.a3cb1423.jpg": "/molina-react-challenge/static/media/MyJober.a3cb1423.jpg",
+    "static/media/NoteTaker.be0c2fc9.jpg": "/molina-react-challenge/static/media/NoteTaker.be0c2fc9.jpg",
+    "static/media/ReadMe.f5bc0ae2.jpg": "/molina-react-challenge/static/media/ReadMe.f5bc0ae2.jpg",
+    "static/media/Resume.22f758cd.jpg": "/molina-react-challenge/static/media/Resume.22f758cd.jpg",
+    "static/media/SQL-ET.b6c2c498.jpg": "/molina-react-challenge/static/media/SQL-ET.b6c2c498.jpg",
+    "static/media/Weather-Dash.860d67d4.jpg": "/molina-react-challenge/static/media/Weather-Dash.860d67d4.jpg",
+    "static/media/WorkScheduler.53062d19.jpg": "/molina-react-challenge/static/media/WorkScheduler.53062d19.jpg",
+    "static/media/austin-sky-2.02933a84.jpg": "/molina-react-challenge/static/media/austin-sky-2.02933a84.jpg",
+    "static/media/me-on-boulder.cce7bd32.JPG": "/molina-react-challenge/static/media/me-on-boulder.cce7bd32.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3319f46.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.5b309f9c.chunk.js",
+    "static/css/main.0723ee60.chunk.css",
+    "static/js/main.99bcbfe0.chunk.js"
+  ]
+}
