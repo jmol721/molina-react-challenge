@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/molina-react-challenge/static/css/main.0723ee60.chunk.css",
-    "main.js": "/molina-react-challenge/static/js/main.99bcbfe0.chunk.js",
-    "main.js.map": "/molina-react-challenge/static/js/main.99bcbfe0.chunk.js.map",
-    "runtime-main.js": "/molina-react-challenge/static/js/runtime-main.f3319f46.js",
-    "runtime-main.js.map": "/molina-react-challenge/static/js/runtime-main.f3319f46.js.map",
+    "main.css": "/molina-react-challenge/static/css/main.b6ba33ce.chunk.css",
+    "main.js": "/molina-react-challenge/static/js/main.4ea4e1a4.chunk.js",
+    "main.js.map": "/molina-react-challenge/static/js/main.4ea4e1a4.chunk.js.map",
+    "runtime-main.js": "/molina-react-challenge/static/js/runtime-main.404cb555.js",
+    "runtime-main.js.map": "/molina-react-challenge/static/js/runtime-main.404cb555.js.map",
     "static/css/2.818011ed.chunk.css": "/molina-react-challenge/static/css/2.818011ed.chunk.css",
-    "static/js/2.5b309f9c.chunk.js": "/molina-react-challenge/static/js/2.5b309f9c.chunk.js",
-    "static/js/2.5b309f9c.chunk.js.map": "/molina-react-challenge/static/js/2.5b309f9c.chunk.js.map",
-    "static/js/3.bd4ee794.chunk.js": "/molina-react-challenge/static/js/3.bd4ee794.chunk.js",
-    "static/js/3.bd4ee794.chunk.js.map": "/molina-react-challenge/static/js/3.bd4ee794.chunk.js.map",
+    "static/js/2.21b73c95.chunk.js": "/molina-react-challenge/static/js/2.21b73c95.chunk.js",
+    "static/js/2.21b73c95.chunk.js.map": "/molina-react-challenge/static/js/2.21b73c95.chunk.js.map",
+    "static/js/3.46bf0f80.chunk.js": "/molina-react-challenge/static/js/3.46bf0f80.chunk.js",
+    "static/js/3.46bf0f80.chunk.js.map": "/molina-react-challenge/static/js/3.46bf0f80.chunk.js.map",
     "index.html": "/molina-react-challenge/index.html",
     "static/css/2.818011ed.chunk.css.map": "/molina-react-challenge/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.0723ee60.chunk.css.map": "/molina-react-challenge/static/css/main.0723ee60.chunk.css.map",
-    "static/js/2.5b309f9c.chunk.js.LICENSE.txt": "/molina-react-challenge/static/js/2.5b309f9c.chunk.js.LICENSE.txt",
+    "static/css/main.b6ba33ce.chunk.css.map": "/molina-react-challenge/static/css/main.b6ba33ce.chunk.css.map",
+    "static/js/2.21b73c95.chunk.js.LICENSE.txt": "/molina-react-challenge/static/js/2.21b73c95.chunk.js.LICENSE.txt",
     "static/media/GYAHM.891b3723.jpg": "/molina-react-challenge/static/media/GYAHM.891b3723.jpg",
     "static/media/MyJober.a3cb1423.jpg": "/molina-react-challenge/static/media/MyJober.a3cb1423.jpg",
     "static/media/NoteTaker.be0c2fc9.jpg": "/molina-react-challenge/static/media/NoteTaker.be0c2fc9.jpg",
@@ -26,10 +26,10 @@
     "static/media/me-on-boulder.cce7bd32.JPG": "/molina-react-challenge/static/media/me-on-boulder.cce7bd32.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3319f46.js",
+    "static/js/runtime-main.404cb555.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.5b309f9c.chunk.js",
-    "static/css/main.0723ee60.chunk.css",
-    "static/js/main.99bcbfe0.chunk.js"
+    "static/js/2.21b73c95.chunk.js",
+    "static/css/main.b6ba33ce.chunk.css",
+    "static/js/main.4ea4e1a4.chunk.js"
   ]
 }
