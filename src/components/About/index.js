@@ -1,9 +1,6 @@
 import React from 'react';
 import { Image, Container, Row, Col } from 'react-bootstrap';
-// import coverPic from '../../assets/cover/IMG-0500.jpg';
 import boulderMe from '../../assets/cover/me-on-boulder.JPG';
-// import skyline from '../../assets/cover/austin-sky-copy.jpg';
-// import skyline2 from '../../assets/cover/austin-sky.jpg';
 import skyline3 from '../../assets/cover/austin-sky-2.jpg';
 
 
@@ -12,7 +9,6 @@ function About() {
         <section className="about">
             <div>
                 <h1 className="title">About Me</h1>
-                {/* <img src={coverPic} className="cover-pic" alt="Austin skyline at night from a paddleboard" /> */}
                 <Image src={skyline3} alt="Austin skyline at night from a paddleboard" fluid />
             </div>
             <br />

@@ -63,7 +63,7 @@ function ContactForm() {
         //         <button type="submit" data-testid='button'>Submit</button>
         //     </form>
         // </section>
-        <section>
+        <div>
             <h1 >Contact Me</h1>
             <Form onSubmit={handleSubmit}>
                 <Row className="justify-content-md-center">
@@ -97,7 +97,7 @@ function ContactForm() {
                     Submit
                 </Button>
             </Form>
-        </section>
+        </div>
     )
 }
 
